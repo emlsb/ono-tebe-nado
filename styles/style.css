@@ -3,3 +3,8 @@
   justify-content: space-between;
   padding: 92px 646px 96px 646px;
 }
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+}
