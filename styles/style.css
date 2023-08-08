@@ -3,7 +3,12 @@
   min-height: 109px;
   display: flex;
   justify-content: space-between;
-  padding: 92px 50px;
+  padding: 92px 50px 92px 50px;
+}
+
+.header__menu{
+  display: flex;
+  align-self: center;
 }
 
 .header-menu-list {
@@ -20,4 +25,24 @@
 .header__menu-item_active {
   list-style: none;
   text-decoration: none;
+}
+
+  .header_logo {
+    max-width: 148px;
+    max-height: 105px;
+    padding-bottom: 4px;
+
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24.3px
+}
+
+.address {
+  width: 240px;
 }
