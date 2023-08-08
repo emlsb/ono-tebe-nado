@@ -46,3 +46,30 @@
 .address {
   width: 240px;
 }
+
+.cover {
+  width: 100%;
+  min-height: 757px;
+  background-image: url("/ono-tebe-nado/images/cover.jpg");
+}
+
+.cover__title {
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.aligned-text {
+  display: block;
+  padding: 20px;
+  letter-spacing: 30px;
+}
+
+.aligned-text_center {
+ text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
