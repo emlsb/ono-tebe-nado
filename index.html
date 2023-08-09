@@ -28,11 +28,15 @@
         <img src="./images/logo-black.svg" alt="logo" />
       </a>
         <ul class="header__address">
-          <li>+9 999 555 5555</li>
           <li>
-            <a>info@sobaka.ge</a>
+            <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
           </li>
-          <li class="address">наб. Принсенграхт 263-265, Амстердам</li>
+          <li>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li>
+            <address class="address">наб. Принсенграхт 263-265, Амстердам</address>
+          </li>
         </ul>
     </header>
     <main>
@@ -42,8 +46,48 @@
             <span class="aligned-text aligned-text_center">ТЕБЕ</span>
             <span class="aligned-text aligned-text_right">НАДО</span>
         </h1>
+        <p class="cover__description">Аукцион    вещей,    в    которые    никто    не     верил</p>
+        <button>Сделать ставку</button>
       </section>
-      <section class="lots"></section>
+      <section class="lots">
+        <h2 class="lots__heading">Лоты</h2>
+        <article>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item">
+              <a class="card-link">
+                <div class="card card_type_film">                
+                  <img src="./images/card-lot-01.jpg"/>
+                  <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
+                  <p class="card__text"></p>
+                </div>
+              </a>
+            </li>
+            <li class="lots__card-list-item">
+              <a class="card-link">
+                <div class="card card_type_book">                
+                  <img src="./images/card-lot-02.jpg"/>
+                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <p class="card__text"></p>
+                </div>
+              </a>
+            </li>
+            <li class="lots__card-list-item">
+              <a class="card-link">
+                <div class="card card_type_picture">                
+                  <img src="./images/card-lot-03.jpg"/>
+                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <p class="card__text"></p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <a>посмотреть больше</a>
+        </article>
+          <div>
+            <h3></h3>
+          </div>
+        </article>
+      </section>
       <section class="about"></section>
     </main>
     <footer></footer>

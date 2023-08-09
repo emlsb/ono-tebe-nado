@@ -28,8 +28,9 @@
 }
 
   .header_logo {
-    max-width: 148px;
-    max-height: 105px;
+    display: block;
+    width: 148px;
+    height: 105px;
     padding-bottom: 4px;
 
 }
@@ -43,17 +44,20 @@
   line-height: 24.3px
 }
 
+
 .address {
+  font-style: normal;
   width: 240px;
 }
 
 .cover {
-  width: 100%;
-  min-height: 757px;
+  height: 757px;
   background-image: url("/ono-tebe-nado/images/cover.jpg");
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
   font-size: 100px;
   color: #fff;
   text-transform: uppercase;
@@ -72,4 +76,14 @@
 
 .aligned-text_right {
   text-align: right;
+}
+
+.lots{
+  padding: 180px 50px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
