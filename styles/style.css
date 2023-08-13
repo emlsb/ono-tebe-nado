@@ -6,18 +6,18 @@
   padding: 92px 50px 92px 50px;
 }
 
-.header__menu{
+.header__menu {
   display: flex;
   align-self: center;
 }
 
 .header-menu-list {
   display: flex;
-  gap: 26px ;
+  gap: 26px;
   flex-direction: row;
 }
 
-.header__menu-item{
+.header__menu-item {
   font-size: 18px;
   list-style-type: circle;
 }
@@ -27,11 +27,11 @@
   text-decoration: none;
 }
 
-  .header_logo {
-    display: block;
-    width: 148px;
-    height: 105px;
-    padding-bottom: 4px;
+.header_logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  padding-bottom: 4px;
 
 }
 
@@ -50,40 +50,115 @@
   width: 240px;
 }
 
+
 .cover {
-  height: 757px;
-  background-image: url("/ono-tebe-nado/images/cover.jpg");
+  background: rgba(0, 0, 0, 0.6) url(/ono-tebe-nado/images/cover.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .cover__title {
   display: flex;
   flex-direction: column;
-  font-size: 100px;
+  gap: 20px;
+  justify-content: center;
+  padding: 165px 50px 135px;
   color: #fff;
-  text-transform: uppercase;
+  font-size: 100px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .aligned-text {
-  display: block;
-  padding: 20px;
+  display: flex;
+  line-height: 115%;
   letter-spacing: 30px;
+  width: 1340px;
 }
 
 .aligned-text_center {
- text-align: center;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-align: center;
 }
 
 .aligned-text_right {
+  line-height: 100%;
+  letter-spacing: 60px;
   text-align: right;
 }
 
-.lots{
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: center;
+  font-size: 22px;
+  gap: 78px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.cover__description-text {
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 15px;
+  text-transform: uppercase;
+  padding-left: 422px;
+  padding-right: 50px;
+}
+
+.bet-button {
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  width: 257px;
+  height: 52px;
+}
+
+
+.lots {
   padding: 180px 50px;
 }
 
 .lots__card-list {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
+  gap: 25px;
+}
+
+.about__logo {
+  display: inline-block;
+  max-width: 240px;
+  max-height: 240px;
+  background-color: #000;
+}
+
+.about__logo-image {
+  max-width: 148px;
+  max-height: 114px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.about__text {
+  font-size: 20px;
+  color: #000;
 }
