@@ -199,6 +199,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  width: 350px;
 }
 
 .card__text {
