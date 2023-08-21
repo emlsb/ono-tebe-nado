@@ -14,33 +14,31 @@
 <body>
   <header class="header">
     <nav class="header__menu">
-      <ul class="header-menu-list">
-        <li class="header__menu-item header__menu-item_active">
-          <a class="header-menu-link">главная</a>
+      <ul class="header__links-list">
+        <li class="header__links-list-item header__link_active" >
+          <a class="header__link">
+            главная
+          </a>
         </li>
-        <li class="header__menu-item">
-          <a class="header-menu-link" href="#0">посмотреть лоты</a>
+        <li class="header__links-list-item">
+          <a class="header__link">
+            посмотреть лоты
+          </a>
         </li>
-        <li class="header__menu-item">
-          <a class="header-menu-link" href="#0">об аукционе</a>
+        <li class="header__links-list-item">
+          <a class="header__link">
+            об аукционе
+          </a>
         </li>
       </ul>
     </nav>
-    <a class="header_logo">
-      <img src="./images/logo-black.svg" alt="Лого" />
+    <a href="#" class="header__logo">
+      <img src="../ono-tebe-nado/images/logo-black.svg" class="header__logo-image">
     </a>
-    <address class="address">
-      <ul class="header__address">
-        <li>
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-          <p>наб. Принсенграхт 263-265, Амстердам</p>
-        </li>
-      </ul>
+    <address class="header__address address">
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <p>наб. Принсенграхт 263-265, Амстердам</p>
     </address>
   </header>
   <main>
@@ -56,7 +54,8 @@
         </span>
         <span class="aligned-text aligned-text_right">
           н
-          <span class="letter-spacing-extended">адо</span>
+          <span class="letter-spacing-extended">ад</span>
+          <span class="no-letter-spacing">о</span>
         </span>
       </h1>
       <div class="cover__description">
@@ -70,7 +69,7 @@
           <li class="lots__card-list-item">
             <a href="#" class="card-link">
               <article class="card card_type_film">
-                <!-- <div class="overlay"></div> -->
+                <div class="overlay"></div>
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой
                   была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
@@ -91,7 +90,7 @@
           <li class="lots__card-list-item">
             <a href="#" class="card-link">
               <article class="card card_type_picture">
-                <!-- <div class="overlay"></div> -->
+                <div class="overlay"></div> -->
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
                   похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое
@@ -105,7 +104,7 @@
     <section class="about">
       <div class="about__column">
         <a class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg" alt="logo" />
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="Лого" />
         </a>
       </div>
       <div class="about__column">
@@ -127,18 +126,10 @@
     </section>
   </main>
   <footer class="footer">
-    <address class="address">
-      <ul class="footer__address">
-        <li>
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-          <p>наб. Принсенграхт 263-265, Амстердам</p>
-        </li>
-      </ul>
+    <address class="address footer__address">
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <p>наб. Принсенграхт 263-265, Амстердам</p>
     </address>
     <nav class="footer__menu">
       <ul class="footer__menu-list">
@@ -157,7 +148,7 @@
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <a href="#" class="footer__social-link">
-            <img src="./images/yt.svg" alt="Ютуб">
+            <img src="./images/yt.svg" alt="YouTube">
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -167,7 +158,7 @@
         </li>
         <li class="footer__social-list-item">
           <a href="#" class="footer__social-link">
-            <img src="./images/pinterest.svg" alt="Пинтерест">
+            <img src="./images/pinterest.svg" alt="Pinterest">
           </a>
         </li>
       </ul>
