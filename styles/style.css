@@ -230,9 +230,9 @@
   padding: 0px 50px;
 }
 
-.about__column {
-  padding: 0px 50px;
-}
+/* .about__column {
+  padding: 0px 30px;
+} */
 
 .about__logo {
   display: block;
@@ -241,7 +241,6 @@
   background-color: #000;
   border-radius: 50%;
   margin-left: 95px;
-  margin-right: 95px;
 }
 
 .about__logo-image {
@@ -254,7 +253,8 @@
   font-size: 40px; 
   line-height: normal;
   padding: 100px 0px;
-  margin-left: 25px;
+  margin-left: 120px;
+
 }
 
 .about__text {
@@ -262,7 +262,7 @@
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
-  margin-left: 25px;
+  margin-left: 120px;
 }
 
 
