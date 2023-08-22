@@ -56,26 +56,27 @@
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
+  color: #fff;
 }
 
 .cover__title {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  padding: 165px 50px 135px;
-  color: #fff;
+  gap: 10px;
+  padding: 165px 50px 125px;
   font-size: 100px;
   font-weight: 700;
-  text-transform: uppercase;
   line-height: 1.15;
-  letter-spacing: 60px;
   word-spacing: -0.84em;
+  text-transform: uppercase;
 }
 
 .aligned-text {
-  display: flex;
+  display: block;
+  min-width: 1340px;
   line-height: 115%;
   letter-spacing: 60px;
 }
@@ -84,53 +85,49 @@
   letter-spacing: 30px;
 }
 
-.no-letter-spacing {
+.no-letter-spacing-extended {
   letter-spacing: 0;
 }
 
 .aligned-text_center {
-  justify-content: center;
+  text-align: center;
 }
 
 .aligned-text_right {
-  justify-content: end;
+  margin-left: 60px;
+  text-align: end;
 }
 
 .cover__description {
   display: flex;
-  width: 100%;
   flex-direction: row;
   align-items: center;
   align-content: end;
-  justify-content: center;
+  justify-content: end;
   font-size: 22px;
-  gap: 78px;
-  color: #fff;
-  padding-left: 422px;
-  padding-right: 50px;
+  font-weight: 400;
+  line-height: 28px;
   padding-bottom: 50px;
 }
 
 .cover__description-text {
-  font-weight: 400;
-  line-height: 28px;
-  word-spacing: 15px;
   text-transform: uppercase;
+  word-spacing: 18px;
+  margin-right: 78px;
 }
 
 .bet-button {
+  font-size: 22px;
+  line-height: 28px;
   color: #fff;
+  background-color: transparent;
   text-align: center;
   font-family: Raleway, "sans-serif";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
-  background-color: transparent;
   border: 1px solid #fff;
   width: 257px;
   height: 52px;
+  margin-right: 50px ;
 }
 
 .lots {
@@ -139,6 +136,7 @@
 }
 
 .lots__heading {
+  padding-left: 40px;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -222,6 +220,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 40px;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -231,8 +231,7 @@
 }
 
 .about__column {
-  /* width: 100%; */
-  /* padding: 0px 95px; */
+  padding: 0px 50px;
 }
 
 .about__logo {
