@@ -201,7 +201,6 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  width: 350px;
 }
 
 .card__text {
@@ -218,7 +217,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 40px;
+  margin-left: 40px;
   text-underline-offset: 5px;
 }
 
@@ -267,8 +266,6 @@
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
   text-underline-offset: 5px;
   align-self: center;
   list-style: none;
