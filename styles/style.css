@@ -294,6 +294,10 @@
   line-height: normal;
 }
 
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
 .footer__social-list {
   display: flex;
   flex-direction: row;
