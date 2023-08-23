@@ -16,6 +16,7 @@
   flex-direction: row;
   list-style: circle;
   gap: 32px;
+  text-underline-offset: 3px;
 }
 
 .header__link {
